@@ -17,7 +17,7 @@ idea {
 }
 
 group 'com.angelscript'
-version '1.1.1'
+version '1.2.0'
 
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
@@ -37,7 +37,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2022.3'
+    version = '2023.2'
     plugins = ['com.intellij.java']
 }
 
