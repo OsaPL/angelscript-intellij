@@ -25,4 +25,6 @@ jobs:
       - name: Gradle Build
         run: gradle test
       - name: Build
-        run: gradle buildPlugin 
+        run: gradle buildPlugin
+      - name: Tree
+        run: tree
