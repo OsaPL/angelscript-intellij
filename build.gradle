@@ -37,13 +37,13 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2024.1.1'
+    version = '2024.1'
     plugins = ['com.intellij.java']
 }
 
 patchPluginXml {
     changeNotes = """
-      Added support for Intellij 2024.1.1 and up
+      Added support for Intellij 2024.1 and up
       """
 }
 test {
