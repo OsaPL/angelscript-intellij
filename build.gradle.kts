@@ -34,7 +34,7 @@ java.targetCompatibility = JavaVersion.VERSION_17
 
 dependencies {
     intellijPlatform {
-        rider("2024.1.2")
+        rider("2024.3.3")
 
 //        bundledPlugin("com.intellij.java")
 
