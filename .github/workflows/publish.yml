@@ -23,4 +23,8 @@ jobs:
       - name: Gradle Version
         run: gradle -version
       - name: Sign and Publish
-        run: gradle build buildPlugin signPlugin publishPlugin -x test
+        run: gradle build buildPlugin
+      - uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: build/distributions/*.zip
