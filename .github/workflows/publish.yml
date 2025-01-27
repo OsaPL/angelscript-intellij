@@ -17,16 +17,10 @@ jobs:
           distribution: 'temurin'
       - uses: gradle/gradle-build-action@v2
         with:
-          gradle-version: 7.5.1
+          gradle-version: 8.7
       - name: Java Version
         run: java -version
       - name: Gradle Version
         run: gradle -version
-      - name: Gradle Build
-        run: gradle test
-      - name: Build
-        run: gradle buildPlugin
-      - uses: actions/upload-artifact@v3
-        with:
-          name: my-artifact
-          path: build/distributions/*.zip
+      - name: Sign and Publish
+        run: gradle build buildPlugin signPlugin publishPlugin -x test
