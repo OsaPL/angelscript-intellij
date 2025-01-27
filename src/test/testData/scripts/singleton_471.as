@@ -1,4 +1,0 @@
-void TestSingleton()
-{
-  Game.Test();
-}

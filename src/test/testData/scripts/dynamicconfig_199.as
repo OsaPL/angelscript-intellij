@@ -1,3 +1,0 @@
-void Test(mytype&in)
-{
-}

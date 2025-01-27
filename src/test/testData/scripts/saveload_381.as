@@ -1,4 +1,0 @@
-void func() {
-  'test';
-  return;
-}

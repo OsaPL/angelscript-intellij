@@ -1,4 +1,0 @@
-class mystruct
-{
-  mytype var;
-};

@@ -1,4 +1,0 @@
-void Test()
-{
-  mytype var;
-}

@@ -1,1 +1,0 @@
-const string &SomeFunc() { return ''; }
